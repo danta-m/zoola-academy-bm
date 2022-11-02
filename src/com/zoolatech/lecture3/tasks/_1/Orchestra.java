@@ -1,4 +1,4 @@
-package com.zoolatech.lecture3.tasks;
+package com.zoolatech.lecture3.tasks._1;
 
 import java.util.ArrayList;
 
