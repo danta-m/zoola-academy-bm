@@ -21,30 +21,39 @@ public class Robot {
     public int getH() {
         return h;
     }
+
     public void setH(int h) {
         this.h = h;
     }
+
     public int getW() {
         return w;
     }
+
     public void setW(int w) {
         this.w = w;
     }
+
     public String getDirection() {
         return direction;
     }
+
     public void setDirection(String direction) {
         this.direction = direction;
     }
+
     public int getWidthRoom() {
         return widthRoom;
     }
+
     public void setWidthRoom(int widthRoom) {
         this.widthRoom = widthRoom;
     }
+
     public int getHeightRoom() {
         return heightRoom;
     }
+
     public void setHeightRoom(int heightRoom) {
         this.heightRoom = heightRoom;
     }
