@@ -19,6 +19,7 @@ public class Musician {
     public void playMusic() {
         instrument.play();
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -2,8 +2,8 @@ package com.zoolatech.lecture3.tasks._2;
 
 import java.util.Objects;
 
-public record UserAccount (int userId, String firstName, String lastName, String country,
-                           String userEmail, String phoneNumber, int birthDay, int birthMonth) {
+public record UserAccount(int userId, String firstName, String lastName, String country,
+                          String userEmail, String phoneNumber, int birthDay, int birthMonth) {
 
     @Override
     public boolean equals(Object o) {

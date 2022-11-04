@@ -2,6 +2,7 @@ package com.zoolatech.lecture3.tasks._2;
 
 public class StringIsNotEmptyValidation implements Validator {
     private String firstName;
+
     public StringIsNotEmptyValidation(String firstName) {
         this.firstName = firstName;
     }

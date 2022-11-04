@@ -12,5 +12,6 @@ public class NumberIsBiggerThanValueValidation implements Validator {
     public boolean isValid(UserAccount userAccount) {
         boolean check = true;
         System.out.println("Checking that the number is bigger than 0: " + check);
-        return check;    }
+        return check;
+    }
 }

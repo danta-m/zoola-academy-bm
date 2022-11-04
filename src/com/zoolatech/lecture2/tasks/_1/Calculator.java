@@ -2,9 +2,11 @@ package com.zoolatech.lecture2.tasks._1;
 
 public class Calculator {
     private double currentValue;
+
     public double getCurrentValue() {
         return currentValue;
     }
+
     public void setCurrentValue(double currentValue) {
         this.currentValue = currentValue;
     }
